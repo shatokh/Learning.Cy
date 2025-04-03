@@ -1,0 +1,19 @@
+# Node.js dependencies
+node_modules/
+
+# Cypress screenshots and videos
+cypress/screenshots/
+cypress/videos/
+
+# Mochawesome JSON and HTML reports
+cypress/reports/
+
+# Firebase credentials or test secrets (if used)
+cypress.env.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode project settings
+.vscode/
