@@ -165,10 +165,6 @@
     "untildify": "^4.0.0",
     "uuid": "^8.3.2",
     "verror": "^1.10.0",
-    "which": "^2.0.2",
-    "wrap-ansi": "^7.0.0",
-    "wrappy": "^1.0.2",
-    "yauzl": "^2.10.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

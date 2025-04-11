@@ -1,6 +1,9 @@
 # Node.js dependencies
 node_modules/
 
+# IDE settings
+.idea/
+
 # Cypress screenshots and videos
 cypress/screenshots/
 cypress/videos/
