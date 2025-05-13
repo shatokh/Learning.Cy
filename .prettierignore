@@ -1,5 +1,3 @@
 # Ignore everything:
 node_modules
-
-# Except cypress tests:
-!/cypress
+.gitignore

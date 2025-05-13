@@ -19,13 +19,22 @@ describe('LoginPage: Given Login page opened', { testIsolation: false }, () => {
       // Test implementation
     });
     it('Then User should see login field', () => {
-      cy.get('[data-test="username"]').should('be.visible');
+      cy.get(loginPage.username).should('be.visible');
     });
     it('Then User should see password field', () => {
-      cy.get('[data-test="password"]').should('be.visible');
+      cy.get(loginPage.password).should('be.visible');
     });
     it('Then User should see login button', () => {
-      cy.get('[data-test="login-button"]').should('be.visible');
+      cy.get(loginPage.loginButton).should('be.visible');
+    });
+  });
+
+  context('Login with standard user', () => {
+    it('Then User should be able to login with standard user', () => {
+      cy.get(loginPage.username).type(standardUser.username);
+      cy.get(loginPage.password).type(standardUser.password);
+      cy.get(loginPage.loginButton).click();
+      cy.url().should('include', '/inventory.html');
     });
   });
 });
