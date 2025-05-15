@@ -1,7 +1,8 @@
 # Hotkeys for JavaScript and npm projects
 
 ## General
-
+- `Ctrl + Alt+ Shift + L`: Reformat a file  
+- `Ctrl + Alt+ L`: Reformat selected code
 - `Ctrl + C`: Copy
 - `Ctrl + V`: Paste
 - `Ctrl + X`: Cut
