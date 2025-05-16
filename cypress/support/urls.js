@@ -1,4 +1,7 @@
 // Config for central access to URLs.
-const pages = {
-  login: `${Cypress.env('baseUrl')}/`,
+export const urls = {
+  pages: {
+    login:      '/',
+    inventory:  '/inventory.html'
+  }
 };

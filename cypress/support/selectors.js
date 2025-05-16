@@ -8,7 +8,11 @@ export const loginPage = {
   errorButton: '[data-test="error-button"]',
   errorIcon: '[data-icon="times-circle"]',
   errors: {
-    passwordIsRequired: 'Epic sadface: Password is required'
+    usernameIsRequired:            'Epic sadface: Username is required',
+    passwordIsRequired:            'Epic sadface: Password is required',
+    lockedOutUser:                 'Epic sadface: Sorry, this user has been locked out.',
+    incorrectUsernameOrPassword:   'Epic sadface: Username and password do not match any user in this service',
+    unauthorizedAccess:            "Epic sadface: You can only access '/inventory.html' when you are logged in."
   }
 };
 
