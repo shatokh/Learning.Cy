@@ -24,3 +24,4 @@ Cypress.Commands.add('getUserDataByRole', (role) => {
     return cy.wrap(userData);
   });
 });
+
